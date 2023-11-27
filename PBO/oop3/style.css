@@ -1,0 +1,85 @@
+    /* style.css */
+
+    /* Gaya untuk body (halaman) */
+    body {
+        font-family: Times New Roman, sans-serif;
+        background-color: #4d33e2;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Gaya untuk kontainer utama */
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Gaya untuk judul */
+    h1 {
+        color: #333;
+    }
+
+    /* Gaya untuk formulir input */
+    form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="text"] {
+        width: 96%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    input[type="submit"] {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+
+    /* Gaya untuk pesan kesalahan */
+    .error-message {
+        color: #ff0000;
+    }
+
+    /* Gaya untuk tabel */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #007BFF;
+        color: #fff;
+    }
+
+    /* Gaya untuk tautan (link) */
+    a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
