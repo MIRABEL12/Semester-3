@@ -1,0 +1,165 @@
+/**  ===== Google Font =====  **/
+@import url("https://fonts.googleapis.com/css?family=Mada:400,500,600");
+@import url("../plugins/bootstrap/css/bootstrap.min.css");
+/**  ===== Custom css start ======  **/
+body {
+  font-family: "Mada", sans-serif;
+  font-size: 14px;
+  color: #686c71;
+  font-weight: 400;
+  background: #fff;
+  position: relative; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #111;
+  font-weight: 600; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 36px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  color: #111;
+  font-size: 16px; }
+
+p {
+  font-size: 14px; }
+
+b,
+strong {
+  font-weight: 400; }
+
+/* =========  scrollbar End  ========== */
+
+/* ========= owl-carousel slider Start ========= */
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  padding: 3px 9px; }
+/* =====  owl-carousel slider End  ====== */
+
+/**  ====== Form Componant css start ======  **/
+.custom-select,
+.form-control {
+  background: #eff3f6;
+  padding: 10px 20px;
+  font-size: 14px;
+  height: auto; }
+  .custom-select:focus,
+  .form-control:focus {
+    background: #eff3f6; }
+  .custom-select::-moz-placeholder,
+  .form-control::-moz-placeholder {
+    color: #aaaeb3;
+    opacity: 1; }
+  .custom-select:-ms-input-placeholder,
+  .form-control:-ms-input-placeholder {
+    color: #aaaeb3; }
+  .custom-select::-webkit-input-placeholder,
+  .form-control::-webkit-input-placeholder {
+    color: #aaaeb3; }
+
+/* input group start */
+.input-group {
+  background: #eff3f6; }
+  .input-group .form-control {
+    padding: 8px 20px; }
+  .input-group .input-group-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent; }
+    .input-group .input-group-text i {
+      font-size: 16px; }
+.cust-file-button .custom-file-label {
+  height: calc(2.25rem + 8px);
+  line-height: 2.5; }
+  .cust-file-button .custom-file-label::after {
+    padding: 0.775rem 0.75rem;
+    height: 2.65rem; }
+.custom-select {
+  height: calc(2.25rem + 9px); }
+/* input group End */
+
+/** Authentication css start **/
+.auth-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100vh; }
+  @media (min-width: 1200px) {
+    .auth-wrapper .container {
+      max-width: 1140px; } }
+  .auth-wrapper .saprator {
+    position: relative;
+    margin: 8px 0; }
+    .auth-wrapper .saprator span {
+      background: #fff;
+      position: relative;
+      padding: 0 10px;
+      z-index: 5;
+      font-size: 20px; }
+    .auth-wrapper .saprator:after {
+      content: "";
+      position: relative;
+      top: 15px;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #e2e5e8;
+      z-index: 1; }
+  .auth-wrapper a,
+  .auth-wrapper p > a {
+    color: #111;
+    font-weight: 600; }
+  .auth-wrapper .btn-auth-gen .btn-icon {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px; }
+    .auth-wrapper .btn-auth-gen .btn-icon small {
+      font-size: 15px; }
+  .auth-wrapper .input-group {
+    background: transparent; }
+  .auth-wrapper .card {
+    margin-bottom: 0;
+    padding: 8px; }
+    .auth-wrapper .card .card-body {
+      padding: 20px 25px 20px 40px; }
+
+/** Button css start **/
+.btn {
+  padding: 10px 20px;
+  border-radius: 0.25rem;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out; }
+  .btn > i {
+    margin-right: 12px; }
+  .btn-square {
+    border-radius: 0; }
+  .btn.disabled {
+    cursor: not-allowed;
+    opacity: 0.55; }
+  .btn-rounded {
+    border-radius: 30px; }
+  .btn .spinner-border {
+    margin-right: 5px; }
